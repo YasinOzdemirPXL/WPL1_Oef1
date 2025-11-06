@@ -12,6 +12,8 @@ namespace WPL1_Oef1
         {
             Console.Write("Geef je naam: ");
             string inputUser = Console.ReadLine();
+            Console.Write("Wachtwoord: ");
+            string inputPassword = Console.ReadLine();
         }
     }
 }
