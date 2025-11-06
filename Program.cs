@@ -24,6 +24,8 @@ namespace WPL1_Oef1
                 {
                     return;
                 }
+                tries++;
+                Console.WriteLine($"Foutieve login.\n{3 - tries} pogingen over.");
             }
             Console.WriteLine("Te veel pogingen. Toegang geweigerd.");
         }
