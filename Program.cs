@@ -22,6 +22,7 @@ namespace WPL1_Oef1
 
                 if (inputUser == user && inputPassword == password)
                 {
+                    Console.WriteLine($"Welkom, {inputUser}!");
                     return;
                 }
                 tries++;
