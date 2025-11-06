@@ -10,6 +10,8 @@ namespace WPL1_Oef1
     {
         static void Main(string[] args)
         {
+            Console.Write("Geef je naam: ");
+            string inputUser = Console.ReadLine();
         }
     }
 }
